@@ -31,9 +31,9 @@ off as invalid.
 * [ ] Confirm power rail sequencing against device datasheets
 
 ### Decoupling
-* [ ] Decoupling present for all ICs
-* [ ] Decoupling meets/exceeds vendor recommendations if specified
-* [ ] Bulk decoupling present at PSU
+* [x] Decoupling present for all ICs
+* [x] Decoupling meets/exceeds vendor recommendations if specified
+* [x] Bulk decoupling present at PSU
 
 ### General
 * [ ] All power inputs fed by correct voltage
@@ -68,8 +68,8 @@ same gain across the whole range.
 * [ ] Correct load caps provided for discrete crystals
 * [ ] Crystals only used if IC has an integrated crystal driver
 * [ ] Banking / clock capable input rules met for clocks going to FPGAs
-    * [ ] Xilinx FPGAs: single ended clocks use _P half of differential pairs
-    * [ ] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
+* [ ] Xilinx FPGAs: single ended clocks use _P half of differential pairs
+* [ ] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
 
 ### Strap/init pins
 * [ ] Pullup/pulldowns on all signals that need defined state at boot
