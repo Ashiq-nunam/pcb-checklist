@@ -36,7 +36,7 @@ off as invalid.
 * [x] Bulk decoupling present at PSU
 
 ### General
-* [ ] All power inputs fed by correct voltage
+* [x] All power inputs fed by correct voltage
 * [ ] Check high-power discrete semiconductors and passives to confirm they can handle expected load
 * [ ] Analog rails filtered/isolated from digital circuitry as needed
 
