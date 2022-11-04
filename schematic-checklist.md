@@ -18,7 +18,7 @@ off as invalid.
 
 ### System power input
 
-* [ ] Fusing and/or reverse voltage protection at system power inlet
+* [x] Fusing and/or reverse voltage protection at system power inlet
 * [ ] Check total input capacitance and add inrush limiter if needed
 
 ### Regulators
@@ -78,7 +78,7 @@ same gain across the whole range.
 * [ ] Config/boot flash provided for all FPGAs or MPUs without internal flash
 * [ ] Reference resistors correct value and reference rail
 
-### External interface protection
+### External interface protection 
 
 * [ ] Power outputs (USB etc) current limited
 * [ ] ESD protection on data lines going off board
