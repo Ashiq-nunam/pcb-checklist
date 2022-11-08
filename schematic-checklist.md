@@ -10,9 +10,9 @@ off as invalid.
 * [ ] Debug interfaces are not power gated in sleep mode
 
 ## Passive components
-* [x] Power/voltage/tolerance ratings specified as required
+* [ ] Power/voltage/tolerance ratings specified as required
 * [ ] Ceramic capacitors appropriately de-rated for C/V curve
-* [x] Polarized components specified in schematic if using electrolytic caps etc
+* [ ] Polarized components specified in schematic if using electrolytic caps etc
 
 ## Power supply
 
@@ -57,7 +57,7 @@ off as invalid.
 
 ### Analog
 
-* [ ] RC time constant for attenuators sane given ADC sampling frequency
+* [x] RC time constant for attenuators sane given ADC sampling frequency
 * [x] Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
 same gain across the whole range.
 * [x] Verify polarity of op-amp feedback
