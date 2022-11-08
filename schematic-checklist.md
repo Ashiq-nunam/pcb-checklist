@@ -38,7 +38,7 @@ off as invalid.
 ### General
 * [x] All power inputs fed by correct voltage
 * [x] Check high-power discrete semiconductors and passives to confirm they can handle expected load
-* [ ] Analog rails filtered/isolated from digital circuitry as needed
+* [x] Analog rails filtered/isolated from digital circuitry as needed
 
 ## Signals
 
