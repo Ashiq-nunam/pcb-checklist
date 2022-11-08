@@ -64,9 +64,9 @@ same gain across the whole range.
 
 ### Clocks
 
-* [ ] All oscillators meet required jitter / frequency tolerance. Be extra cautious with MEMS oscillators as these tend to have higher jitter.
-* [ ] Correct load caps provided for discrete crystals
-* [ ] Crystals only used if IC has an integrated crystal driver
+* [x] All oscillators meet required jitter / frequency tolerance. Be extra cautious with MEMS oscillators as these tend to have higher jitter.
+* [x] Correct load caps provided for discrete crystals
+* [x] Crystals only used if IC has an integrated crystal driver
 * [ ] Banking / clock capable input rules met for clocks going to FPGAs
 * [ ] Xilinx FPGAs: single ended clocks use _P half of differential pairs
 * [ ] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
@@ -74,13 +74,13 @@ same gain across the whole range.
 ### Strap/init pins
 * [ ] Pullup/pulldowns on all signals that need defined state at boot
 * [ ] Strap pins connected to correct rail for desired state
-* [ ] JTAG/ICSP connector provided for all programmable devices
+* [x] JTAG/ICSP connector provided for all programmable devices
 * [ ] Config/boot flash provided for all FPGAs or MPUs without internal flash
 * [ ] Reference resistors correct value and reference rail
 
 ### External interface protection 
 
-* [ ] Power outputs (USB etc) current limited
+* [x] Power outputs (USB etc) current limited
 * [ ] ESD protection on data lines going off board
 
 ### Debugging / reworkability
@@ -88,8 +88,8 @@ same gain across the whole range.
 * [ ] Use 0-ohm resistors vs direct hard-wiring for strap pins when possible
 * [ ] Provide multiple ground clips/points for scope probes
 * [ ] Dedicated ground in close proximity to analog test points
-* [ ] Test points on all power rails
-* [ ] Test points on interesting signals which may need probing for bringup/debug
+* [x] Test points on all power rails
+* [x] Test points on interesting signals which may need probing for bringup/debug
 
 ## Thermal
 
