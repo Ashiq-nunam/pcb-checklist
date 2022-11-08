@@ -10,9 +10,9 @@ off as invalid.
 * [ ] Debug interfaces are not power gated in sleep mode
 
 ## Passive components
-* [ ] Power/voltage/tolerance ratings specified as required
-* [ ] Ceramic capacitors appropriately de-rated for C/V curve
-* [ ] Polarized components specified in schematic if using electrolytic caps etc
+* [x] Power/voltage/tolerance ratings specified as required
+* [x] Ceramic capacitors appropriately de-rated for C/V curve
+* [x] Polarized components specified in schematic if using electrolytic caps etc
 
 ## Power supply
 
@@ -50,10 +50,10 @@ off as invalid.
 * [x] Termination on all high-speed signals
 * [x] AC coupling caps on gigabit transceivers
 * [x] TX/RX paired correctly for UART, SPI, MGT, etc
-* [ ] Differential pair polarity / pairing correct
+* [x] Differential pair polarity / pairing correct
 * [x] Active high/low enable signal polarity correct
 * [x] I/O banking rules met on FPGAs etc
-* [ ] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
+* [x] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
 
 ### Analog
 
@@ -72,7 +72,7 @@ same gain across the whole range.
 * [x] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
 
 ### Strap/init pins
-* [ ] Pullup/pulldowns on all signals that need defined state at boot
+* [x] Pullup/pulldowns on all signals that need defined state at boot
 * [x] Strap pins connected to correct rail for desired state
 * [x] JTAG/ICSP connector provided for all programmable devices
 * [x] Config/boot flash provided for all FPGAs or MPUs without internal flash
