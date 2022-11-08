@@ -93,7 +93,7 @@ same gain across the whole range.
 
 ## Thermal
 
-* [ ] Power estimates for all large / high power ICs
-* [ ] Thermal calculations for all large / high power ICs
-* [ ] Specify heatsinks as needed
+* [x] Power estimates for all large / high power ICs
+* [x] Thermal calculations for all large / high power ICs
+* [x] Specify heatsinks as needed
 
