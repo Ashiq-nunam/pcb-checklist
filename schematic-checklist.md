@@ -37,7 +37,7 @@ off as invalid.
 
 ### General
 * [x] All power inputs fed by correct voltage
-* [ ] Check high-power discrete semiconductors and passives to confirm they can handle expected load
+* [x] Check high-power discrete semiconductors and passives to confirm they can handle expected load
 * [ ] Analog rails filtered/isolated from digital circuitry as needed
 
 ## Signals
@@ -45,13 +45,13 @@ off as invalid.
 ### Digital
 
 * [ ] Signals are correct logic level for input pin
-* [ ] Pullups on all open-drain outputs
-* [ ] Pulldowns on all PECL outputs
+* [x] Pullups on all open-drain outputs
+* [x] Pulldowns on all PECL outputs
 * [ ] Termination on all high-speed signals
 * [ ] AC coupling caps on gigabit transceivers
 * [ ] TX/RX paired correctly for UART, SPI, MGT, etc
 * [ ] Differential pair polarity / pairing correct
-* [ ] Active high/low enable signal polarity correct
+* [x] Active high/low enable signal polarity correct
 * [ ] I/O banking rules met on FPGAs etc
 * [ ] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
 
