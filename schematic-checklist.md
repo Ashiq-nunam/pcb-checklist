@@ -48,8 +48,8 @@ off as invalid.
 * [x] Pullups on all open-drain outputs
 * [x] Pulldowns on all PECL outputs
 * [ ] Termination on all high-speed signals
-* [ ] AC coupling caps on gigabit transceivers
-* [ ] TX/RX paired correctly for UART, SPI, MGT, etc
+* [x] AC coupling caps on gigabit transceivers
+* [x] TX/RX paired correctly for UART, SPI, MGT, etc
 * [ ] Differential pair polarity / pairing correct
 * [x] Active high/low enable signal polarity correct
 * [ ] I/O banking rules met on FPGAs etc
