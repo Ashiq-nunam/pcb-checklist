@@ -72,10 +72,10 @@ same gain across the whole range.
 * [x] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
 
 ### Strap/init pins
-* [x] Pullup/pulldowns on all signals that need defined state at boot
+* [ ] Pullup/pulldowns on all signals that need defined state at boot
 * [x] Strap pins connected to correct rail for desired state
 * [x] JTAG/ICSP connector provided for all programmable devices
-* [ ] Config/boot flash provided for all FPGAs or MPUs without internal flash
+* [x] Config/boot flash provided for all FPGAs or MPUs without internal flash
 * [x] Reference resistors correct value and reference rail
 
 ### External interface protection 
