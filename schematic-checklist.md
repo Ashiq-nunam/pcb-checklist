@@ -25,8 +25,8 @@ off as invalid.
 
 * [x] Under/overvoltage protection configured correctly if used
 * [ ] Verify estimated power usage per rail against regulator rating
-* [ ] Current-sense resistors on power rails after regulator output caps, not in switching loop
-* [ ] Remote sense used on low voltage or high current rails
+* [x] Current-sense resistors on power rails after regulator output caps, not in switching loop
+* [x] Remote sense used on low voltage or high current rails
 * [x] Linear regulators and voltage reference ICs are stable with selected output cap ESR
 * [ ] Confirm power rail sequencing against device datasheets
 
