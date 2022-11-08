@@ -28,7 +28,7 @@ off as invalid.
 * [x] Current-sense resistors on power rails after regulator output caps, not in switching loop
 * [x] Remote sense used on low voltage or high current rails
 * [x] Linear regulators and voltage reference ICs are stable with selected output cap ESR
-* [ ] Confirm power rail sequencing against device datasheets
+* [x] Confirm power rail sequencing against device datasheets
 
 ### Decoupling
 * [x] Decoupling present for all ICs
@@ -47,29 +47,29 @@ off as invalid.
 * [x] Signals are correct logic level for input pin
 * [x] Pullups on all open-drain outputs
 * [x] Pulldowns on all PECL outputs
-* [ ] Termination on all high-speed signals
+* [x] Termination on all high-speed signals
 * [x] AC coupling caps on gigabit transceivers
 * [x] TX/RX paired correctly for UART, SPI, MGT, etc
 * [ ] Differential pair polarity / pairing correct
 * [x] Active high/low enable signal polarity correct
-* [ ] I/O banking rules met on FPGAs etc
+* [x] I/O banking rules met on FPGAs etc
 * [ ] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
 
 ### Analog
 
 * [ ] RC time constant for attenuators sane given ADC sampling frequency
-* [ ] Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
+* [x] Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
 same gain across the whole range.
-* [ ] Verify polarity of op-amp feedback
+* [x] Verify polarity of op-amp feedback
 
 ### Clocks
 
 * [x] All oscillators meet required jitter / frequency tolerance. Be extra cautious with MEMS oscillators as these tend to have higher jitter.
 * [x] Correct load caps provided for discrete crystals
 * [x] Crystals only used if IC has an integrated crystal driver
-* [ ] Banking / clock capable input rules met for clocks going to FPGAs
-* [ ] Xilinx FPGAs: single ended clocks use _P half of differential pairs
-* [ ] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
+* [x] Banking / clock capable input rules met for clocks going to FPGAs
+* [x] Xilinx FPGAs: single ended clocks use _P half of differential pairs
+* [x] If possible, create dummy design with all clocks and other key signals and verify it P&R's properly
 
 ### Strap/init pins
 * [x] Pullup/pulldowns on all signals that need defined state at boot
@@ -81,13 +81,13 @@ same gain across the whole range.
 ### External interface protection 
 
 * [x] Power outputs (USB etc) current limited
-* [ ] ESD protection on data lines going off board
+* [x] ESD protection on data lines going off board
 
 ### Debugging / reworkability
 
 * [ ] Use 0-ohm resistors vs direct hard-wiring for strap pins when possible
-* [ ] Provide multiple ground clips/points for scope probes
-* [ ] Dedicated ground in close proximity to analog test points
+* [x] Provide multiple ground clips/points for scope probes
+* [x] Dedicated ground in close proximity to analog test points
 * [x] Test points on all power rails
 * [x] Test points on interesting signals which may need probing for bringup/debug
 
