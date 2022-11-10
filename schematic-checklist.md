@@ -2,7 +2,7 @@
 
 ## General
 
-* [ ] CAD ERC 100% clean. If some errors are invalid due to toolchain quirks, each exception must be inspected and signed
+* [x] CAD ERC 100% clean. If some errors are invalid due to toolchain quirks, each exception must be inspected and signed
 off as invalid.
 * [x] Verify pin numbers of all schematic symbols against datasheet or external interface specification document (if not yet board proven).
 * [x] Schematic symbol matches chosen component package
