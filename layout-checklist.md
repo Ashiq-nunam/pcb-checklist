@@ -53,8 +53,8 @@
 * [x] Sufficient width for planes/traces for required current
 
 ## Sensitive analog
-* [ ] Guard ring / EMI cages provided if needed
-* [ ] Physically separated from high current SMPS or other noise sources
+* [x] Guard ring / EMI cages provided if needed
+* [x] Physically separated from high current SMPS or other noise sources
 * [x] Consider microphone effect on MLCCs if near strong sound sources
 
 ## Mechanical
