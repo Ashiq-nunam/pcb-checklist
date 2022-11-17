@@ -3,7 +3,7 @@
 ## General
 
 * [x] [Schematic review](schematic-checklist.md) complete and signed off, including pin swaps done during layout
-* [ ] Layout DRC 100% clean
+* [x] Layout DRC 100% clean
 
 ## Decoupling
 
@@ -38,7 +38,7 @@
 ## Differential pairs
 * [x] Routed differentially
 * [x] Skew matched
-* [ ] Correct clearance to non-coupled nets
+* [x] Correct clearance to non-coupled nets
 
 ## High-speed signals
 
@@ -58,7 +58,7 @@
 * [x] Consider microphone effect on MLCCs if near strong sound sources
 
 ## Mechanical
-* [ ] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
+* [x] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
 * [x] LEDs, buttons, and other UI elements on outward-facing side of board
 * [x] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
 * [x] Stress-sensitive components (MLCC) sufficiently clear from V-score or mouse bite locations, and oriented to reduce
@@ -67,16 +67,16 @@ bending stress
 * [x] Clearance around pluggable connectors for mating cable/connector
 * [x] Clearance around mounting holes for screws
 * [x] Plane keepouts and clearance provided for shielded connectors, magnetics, etc
-* [ ] Confirm PCB dimensions and mounting hole size/placement against enclosure or card rack design
+* [x] Confirm PCB dimensions and mounting hole size/placement against enclosure or card rack design
 * [x] Verify mounting hole connection/isolation
-* [ ] Components not physically overlapping/colliding
+* [x] Components not physically overlapping/colliding
 * [x] Clearance provided around solder-in test points for probe tips
 
 ## Thermal
 
 * [x] Thermal reliefs used for plane connections (unless via is used for heatsinking)
 * [x] Solid connections used to planes if heatsinking
-* [ ] Ensure thermal balance on SMT chip components to minimize risk of tombstoning
+* [x] Ensure thermal balance on SMT chip components to minimize risk of tombstoning
 
 ## Solder paste
 
