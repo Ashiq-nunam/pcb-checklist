@@ -7,8 +7,8 @@
 
 ## Decoupling
 
-* [ ] Decoupling caps as close to power pins as possible
-* [ ] Low inductance mounting used for decoupling (prefer ViP if available, otherwise "[]8" shaped side vias
+* [x] Decoupling caps as close to power pins as possible
+* [x] Low inductance mounting used for decoupling (prefer ViP if available, otherwise "[]8" shaped side vias
 
 ## DFM / yield enhancement
 
@@ -27,13 +27,13 @@
 
 ## Footprints
 
-* [ ] Confirm components are available in the selected package
+* [s ] Confirm components are available in the selected package
 * [ ] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
 * [ ] Verify schematic symbol matches the selected package
 * [ ] Confirm pinout diagram is from top vs bottom of package
 * [ ] (recommended) PCB printed 1:1 on paper and checked against physical parts
 * [ ] 3D models obtained (if available) and checked against footprints
-* [ ] Soldermask apertures on all SMT lands and PTH pads
+* [ s] Soldermask apertures on all SMT lands and PTH pads
 
 ## Differential pairs
 * [x] Routed differentially
@@ -53,7 +53,7 @@
 * [x] Sufficient width for planes/traces for required current
 
 ## Sensitive analog
-* [x] Guard ring / EMI cages provided if needed
+* [ ] Guard ring / EMI cages provided if needed
 * [ ] Physically separated from high current SMPS or other noise sources
 * [x] Consider microphone effect on MLCCs if near strong sound sources
 
@@ -80,29 +80,29 @@ bending stress
 
 ## Solder paste
 
-* [ ] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
+* [s] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
 * [ ] QFN paste prints segmented
 * [ ] Small pads 100% size, larger pads reduced to avoid excessive solder volume
 * [ ] No paste apertures on card edge connectors or test points
 
 ## Solder mask
 
-* [ ] Confirm SMD vs NSMD pad geometry
-* [ ] Adequate clearance around pads (typ. 50 um)
+* [s ] Confirm SMD vs NSMD pad geometry
+* [s ] Adequate clearance around pads (typ. 50 um)
 
 ## Silkscreen
 
-* [ ] Text size within fab limits
-* [ ] Text not overlapping drills or component pads
-* [ ] Text removed entirely in, or moved outside of, high component/via density areas
-* [ ] Traceability markings (rev, date, name, etc) provided
-* [ ] Silkscreen box provided for writing/sticking serial number
-* [ ] Text mirrored properly on bottom layer
-* [ ] Test points labeled if space permits
+* [x] Text size within fab limits
+* [x] Text not overlapping drills or component pads
+* [x] Text removed entirely in, or moved outside of, high component/via density areas
+* [x] Traceability markings (rev, date, name, etc) provided
+* [x] Silkscreen box provided for writing/sticking serial number
+* [x] Text mirrored properly on bottom layer
+* [x] Test points labeled if space permits
 
 ## Flex specific
-* [ ] Components oriented to reduce bending forces
-* [ ] Teardrops on all wire-to-pad connections
+* [x] Components oriented to reduce bending forces
+* [x] Teardrops on all wire-to-pad connections
 
 ## CAM production
 * [ ] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
