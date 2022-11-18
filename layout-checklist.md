@@ -12,28 +12,28 @@
 
 ## DFM / yield enhancement
 
-* [ ] All design rules within manufacturer's capability
-* [ ] Minimize use of vias/traces that push fab limits
-* [ ] Controlled impedance specified in fab notes if applicable
-* [ ] Confirm impedance calculations include soldermask, or mask removed from RF traces
-* [ ] Stackup verified with manufacturer and specified in fab notes
-* [ ] Board finish specified in fab notes
-* [ ] If panelizing, add panel location indicators for identifying location-specific reflow issues
-* [ ] (recommended) Layer number markers specified to ensure correct assembly
-* [ ] Fiducials present (on both sides of board) if targeting automated assembly
-* [ ] Fiducial pattern asymmetric to detect rotated or flipped boards
-* [ ] Soldermask/copper clearance on fiducials respected
+* [x] All design rules within manufacturer's capability
+* [x] Minimize use of vias/traces that push fab limits
+* [x] Controlled impedance specified in fab notes if applicable
+* [x] Confirm impedance calculations include soldermask, or mask removed from RF traces
+* [x] Stackup verified with manufacturer and specified in fab notes
+* [x] Board finish specified in fab notes
+* [x] If panelizing, add panel location indicators for identifying location-specific reflow issues
+* [x] (recommended) Layer number markers specified to ensure correct assembly
+* [x] Fiducials present (on both sides of board) if targeting automated assembly
+* [x] Fiducial pattern asymmetric to detect rotated or flipped boards
+* [x] Soldermask/copper clearance on fiducials respected
 * [x] Panelization specified if required
 
 ## Footprints
 
 * [s ] Confirm components are available in the selected package
 * [ ] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
-* [ ] Verify schematic symbol matches the selected package
-* [ ] Confirm pinout diagram is from top vs bottom of package
-* [ ] (recommended) PCB printed 1:1 on paper and checked against physical parts
-* [ ] 3D models obtained (if available) and checked against footprints
-* [ s] Soldermask apertures on all SMT lands and PTH pads
+* [x] Verify schematic symbol matches the selected package
+* [x] Confirm pinout diagram is from top vs bottom of package
+* [x] (recommended) PCB printed 1:1 on paper and checked against physical parts
+* [x] 3D models obtained (if available) and checked against footprints
+* [x] Soldermask apertures on all SMT lands and PTH pads
 
 ## Differential pairs
 * [x] Routed differentially
@@ -81,9 +81,9 @@ bending stress
 ## Solder paste
 
 * [s] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
-* [ ] QFN paste prints segmented
-* [ ] Small pads 100% size, larger pads reduced to avoid excessive solder volume
-* [ ] No paste apertures on card edge connectors or test points
+* [x] QFN paste prints segmented
+* [x] Small pads 100% size, larger pads reduced to avoid excessive solder volume
+* [x] No paste apertures on card edge connectors or test points
 
 ## Solder mask
 
@@ -105,6 +105,6 @@ bending stress
 * [x] Teardrops on all wire-to-pad connections
 
 ## CAM production
-* [ ] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
+* [x] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
 * [ ] Export gerber/drill files at the same time to ensure consistency
 * [ ] Visually verify final CAM files to ensure no obvious misalignments
