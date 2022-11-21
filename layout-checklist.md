@@ -27,8 +27,8 @@
 
 ## Footprints
 
-* [s ] Confirm components are available in the selected package
-* [ ] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
+* [x] Confirm components are available in the selected package
+* [x] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
 * [x] Verify schematic symbol matches the selected package
 * [x] Confirm pinout diagram is from top vs bottom of package
 * [x] (recommended) PCB printed 1:1 on paper and checked against physical parts
@@ -49,7 +49,7 @@
 * [x] Double-check pad width on connectors and add plane cutouts if needed to minimize impedance discontinuities
 
 ## Power
-* [ ] Minimal slots in planes from via antipads
+* [x] Minimal slots in planes from via antipads
 * [x] Sufficient width for planes/traces for required current
 
 ## Sensitive analog
@@ -80,15 +80,15 @@ bending stress
 
 ## Solder paste
 
-* [s] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
+* [x] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
 * [x] QFN paste prints segmented
 * [x] Small pads 100% size, larger pads reduced to avoid excessive solder volume
 * [x] No paste apertures on card edge connectors or test points
 
 ## Solder mask
 
-* [s ] Confirm SMD vs NSMD pad geometry
-* [s ] Adequate clearance around pads (typ. 50 um)
+* [x] Confirm SMD vs NSMD pad geometry
+* [x] Adequate clearance around pads (typ. 50 um)
 
 ## Silkscreen
 
