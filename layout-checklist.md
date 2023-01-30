@@ -58,53 +58,53 @@
 * [ ] Consider microphone effect on MLCCs if near strong sound sources
 
 ## Mechanical
-* [x] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
-* [x] LEDs, buttons, and other UI elements on outward-facing side of board
-* [x] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
-* [x] Stress-sensitive components (MLCC) sufficiently clear from V-score or mouse bite locations, and oriented to reduce
+* [ ] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
+* [ ] LEDs, buttons, and other UI elements on outward-facing side of board
+* [ ] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
+* [ ] Stress-sensitive components (MLCC) sufficiently clear from V-score or mouse bite locations, and oriented to reduce
 bending stress
-* [x] Clearance around large ICs for heatsinks/fans if required
-* [x] Clearance around pluggable connectors for mating cable/connector
-* [x] Clearance around mounting holes for screws
-* [x] Plane keepouts and clearance provided for shielded connectors, magnetics, etc
-* [x] Confirm PCB dimensions and mounting hole size/placement against enclosure or card rack design
-* [x] Verify mounting hole connection/isolation
-* [x] Components not physically overlapping/colliding
-* [x] Clearance provided around solder-in test points for probe tips
+* [ ] Clearance around large ICs for heatsinks/fans if required
+* [ ] Clearance around pluggable connectors for mating cable/connector
+* [ ] Clearance around mounting holes for screws
+* [ ] Plane keepouts and clearance provided for shielded connectors, magnetics, etc
+* [ ] Confirm PCB dimensions and mounting hole size/placement against enclosure or card rack design
+* [ ] Verify mounting hole connection/isolation
+* [ ] Components not physically overlapping/colliding
+* [ ] Clearance provided around solder-in test points for probe tips
 
 ## Thermal
 
-* [x] Thermal reliefs used for plane connections (unless via is used for heatsinking)
-* [x] Solid connections used to planes if heatsinking
-* [x] Ensure thermal balance on SMT chip components to minimize risk of tombstoning
+* [ ] Thermal reliefs used for plane connections (unless via is used for heatsinking)
+* [ ] Solid connections used to planes if heatsinking
+* [ ] Ensure thermal balance on SMT chip components to minimize risk of tombstoning
 
 ## Solder paste
 
-* [x] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
-* [x] QFN paste prints segmented
-* [x] Small pads 100% size, larger pads reduced to avoid excessive solder volume
-* [x] No paste apertures on card edge connectors or test points
+* [ ] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
+* [ ] QFN paste prints segmented
+* [ ] Small pads 100% size, larger pads reduced to avoid excessive solder volume
+* [ ] No paste apertures on card edge connectors or test points
 
 ## Solder mask
 
-* [x] Confirm SMD vs NSMD pad geometry
-* [x] Adequate clearance around pads (typ. 50 um)
+* [ ] Confirm SMD vs NSMD pad geometry
+* [ ] Adequate clearance around pads (typ. 50 um)
 
 ## Silkscreen
 
-* [x] Text size within fab limits
-* [x] Text not overlapping drills or component pads
-* [x] Text removed entirely in, or moved outside of, high component/via density areas
-* [x] Traceability markings (rev, date, name, etc) provided
-* [x] Silkscreen box provided for writing/sticking serial number
-* [x] Text mirrored properly on bottom layer
-* [x] Test points labeled if space permits
+* [ ] Text size within fab limits
+* [ ] Text not overlapping drills or component pads
+* [ ] Text removed entirely in, or moved outside of, high component/via density areas
+* [ ] Traceability markings (rev, date, name, etc) provided
+* [ ] Silkscreen box provided for writing/sticking serial number
+* [ ] Text mirrored properly on bottom layer
+* [0] Test points labeled if space permits
 
 ## Flex specific
-* [x] Components oriented to reduce bending forces
-* [x] Teardrops on all wire-to-pad connections
+* [ ] Components oriented to reduce bending forces
+* [ ] Teardrops on all wire-to-pad connections
 
 ## CAM production
-* [x] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
+* [ ] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
 * [ ] Export gerber/drill files at the same time to ensure consistency
 * [ ] Visually verify final CAM files to ensure no obvious misalignments
